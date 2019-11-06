@@ -4,16 +4,7 @@ package baivi;
 
 import java.util.Scanner;
 
-/**
- *
- * @author Asus
- */
-public class BaiVi {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
+public static void main(String[] args) {
         
         float x1,x2,y1,y2;
         Scanner sc = new Scanner(System.in);
@@ -28,7 +19,6 @@ public class BaiVi {
         
         float KC = (float) Math.sqrt((x1-x2)*(x1-x2)+(y1-y2)*(y1-y2));
         System.out.println("Khoảng cách là " + KC);
-        // TODO code application logic here
     }
     
 }
